@@ -6,4 +6,7 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    #header .logo {
+        max-width: 150px;
+    }
 }
