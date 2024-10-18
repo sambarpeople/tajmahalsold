@@ -9,4 +9,16 @@
     #header .logo {
         max-width: 150px;
     }
+    #header .logo .retina-logo, #header.sticky-header .logo .sticky-retina-logo {
+        margin-left: 20px;
+        scale: 1.1;
+    }
+    .elementor-element.elementor-element-a279a14.elementor-widget.elementor-widget-button {
+        margin-right: 20px;
+    }
+    #header.sticky-header .logo {
+        margin-left: 40px;
+        max-width: min(var(--porto-sticky-logo-mw), var(--porto-logo-mw));
+        scale: 1.5;
+    }
 }
